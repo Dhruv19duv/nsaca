@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "python/nsaca/main.py",
+      "src": "python/nsaca/api.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "python/nsaca/main.py"
+      "dest": "python/nsaca/api.py"
     }
   ]
 }
