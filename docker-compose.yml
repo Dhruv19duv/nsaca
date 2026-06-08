@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  python:
+    build:
+      context: .
+      dockerfile: docker/python/Dockerfile
+    volumes:
+      - ./python:/app/python
+      - ./pyproject.toml:/app/pyproject.toml
+    environment:
+      - PYTHONPATH=/app/python
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - NEO4J_URI=bolt://neo4j:7687
+    depends_on:
+      - neo4j
+    ports:
+      - "8000:8000"
+    command: uv run python -m nsaca.main --help
+
+  rust:
+    build:
+      context: .
+      dockerfile: docker/rust/Dockerfile
+    volumes:
+      - ./rust:/app/rust
+    command: nsaca_dsa
+
+  neo4j:
+    image: neo4j:5.15
+    environment:
+      - NEO4J_AUTH=neo4j/password
+    ports:
+      - "7474:7474"  # Browser
+      - "7687:7687"  # Bolt
+    volumes:
+      - neo4j_data:/data
+
+volumes:
+  neo4j_data:
