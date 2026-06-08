@@ -44,3 +44,5 @@ node_modules/
 # OS
 *.log
 tmp/
+
+.vercel
