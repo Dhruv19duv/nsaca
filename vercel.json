@@ -11,5 +11,6 @@
       "src": "/(.*)",
       "dest": "python/nsaca/api.py"
     }
-  ]
+  ],
+  "installCommand": "pip install --no-cache-dir -r requirements-deploy.txt"
 }

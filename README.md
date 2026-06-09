@@ -1,6 +1,17 @@
+<div align="center">
+  <img src="https://img.shields.io/badge/deployed_on-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Railway">
+  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Rust-000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <br>
+  <strong>Live:</strong> <a href="https://nsaca-production.up.railway.app">nsaca-production.up.railway.app</a>
+</div>
+
+<br>
+
 # NeuroSymbolic Autonomous Code Architect (NSACA)
 
-> An AI software architect that automatically designs, optimizes, debugs, and self-improves large-scale software systems.
+> An AI software architect that automatically designs, optimizes, debug, and self-improves large-scale software systems.
 
 ## Architecture Overview
 

@@ -13,4 +13,4 @@ COPY python/ ./python/
 
 EXPOSE 8000
 
-CMD ["python", "-m", "uvicorn", "python.nsaca.api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD python -m uvicorn python.nsaca.api:app --host 0.0.0.0 --port ${PORT:-8000}
