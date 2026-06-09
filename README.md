@@ -1,10 +1,21 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/deployed_on-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Railway">
-  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <a href="https://nsaca-production.up.railway.app">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Live Demo">
+  </a>
+  <a href="https://github.com/Dhruv19duv/nsaca">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Rust-000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <br>
-  <strong>Live:</strong> <a href="https://nsaca-production.up.railway.app">nsaca-production.up.railway.app</a>
+  <br>
+  <a href="https://nsaca-production.up.railway.app">
+    <img src="screenshot.png" alt="NSACA Screenshot" width="700">
+  </a>
+  <br>
+  <br>
+  <p><strong>🔗 Live Demo:</strong> <a href="https://nsaca-production.up.railway.app">nsaca-production.up.railway.app</a></p>
+  <p><strong>📂 GitHub:</strong> <a href="https://github.com/Dhruv19duv/nsaca">github.com/Dhruv19duv/nsaca</a></p>
 </div>
 
 <br>
